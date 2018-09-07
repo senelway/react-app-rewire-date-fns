@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-date-fns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add date-fns babel plugin to create-react-app using react-app-rewired",
   "main": "index.js",
   "repository": "git@github.com:stk-dmitry/react-app-rewire-date-fns.git",

@@ -16,11 +16,21 @@ npm install --save-dev react-app-rewire-date-fns
 ## Usage
 In the `config-overrides.js` you created for `react-app-rewired` add this code:
 
-```
+```js
 const rewireDatefns = require('react-app-rewire-date-fns');
 
 /* config-overrides.js */
 module.exports = function override(config, env) {
   return rewireDatefns(config, env, { ...babelPluginOptions });
 }
+
+// or
+
+module.exports = (config, env) => {
+  const rewires = compose(
+    rewireDatefns,
+  );
+  return rewires(config, env);
+};
+
 ```
