@@ -1,7 +1,7 @@
 # react-app-rewire-date-fns
 Add date-fns babel plugin to create-react-app using react-app-rewired
 
-[![npm](https://img.shields.io/npm/v/react-app-rewire-date-fns.svg)](https://www.npmjs.com/package/react-app-rewire-date-fns)
+[![npm](https://img.shields.io/npm/v/react-app-rewire-date-fns.svg)](https://www.npmjs.com/package/react-app-rewire-date-fns) [![Greenkeeper badge](https://badges.greenkeeper.io/stk-dmitry/react-app-rewire-date-fns.svg)](https://greenkeeper.io/)
 
 
 Add the `date-fns` to `create-react-app` app via [react-app-rewired](https://github.com/timarney/react-app-rewired)
