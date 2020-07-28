@@ -7,7 +7,7 @@
   "author": "__strelkov <stkdmitry@ya.ru>",
   "license": "MIT",
   "devDependencies": {
-    "babel-plugin-date-fns": "^0.2.1"
+    "babel-plugin-date-fns": "^1.0.0"
   },
   "peerDependencies": {
     "react-app-rewired": "^1.6.2"
